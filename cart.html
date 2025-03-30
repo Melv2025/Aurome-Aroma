@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Cart - Aurome Aroma</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Your Navigation -->
+    <nav>
+        <div class="website-name"> <a href="Pob.html"> Aurome Aroma</div> </a>
+        <div class="logo-container">
+            <a href="index.html"><img src="perfume-logo-i-removebg-preview.png" alt="Logo" class="logo-img">
+            </div></a>
+        
+    </nav>
+
+    <!-- Cart Content -->
+    <div class="cart-container">
+        <div class="order-summary">
+            <h2>Your Selection</h2>
+            <div class="cart-items">
+                <!-- Cart items will be inserted here by JavaScript -->
+            </div>
+            <div class="order-totals">
+                <div class="subtotal">
+                    <span>Subtotal:</span>
+                    <span class="subtotal-amount">$0.00</span>
+                </div>
+                <div class="gst">
+                    <span>GST (12.5%):</span>
+                    <span class="gst-amount">$0.00</span>
+                </div>
+                <div class="total">
+                    <span>Total:</span>
+                    <span class="total-amount">$0.00</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="payment-info">
+            <h2>Payment Details</h2>
+            <form id="payment-form">
+                <div class="form-group">
+                    <label for="card-number">Card Number</label>
+                    <input type="text" id="card-number" placeholder="1234 5678 9012 3456" required>
+                </div>
+                <div class="form-group">
+                    <label for="card-name">Cardholder Name</label>
+                    <input type="text" id="card-name" placeholder="John Smith" required>
+                </div>
+                <div class="form-group-row">
+                    <div class="form-group">
+                        <label for="expiry-date">Expiry Date</label>
+                        <input type="text" id="expiry-date" placeholder="MM/YY" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV</label>
+                        <input type="text" id="cvv" placeholder="123" required>
+                    </div>
+                </div>
+                <button type="submit" class="confirm-payment">Complete Purchase</button>
+            </form>
+            <div class="payment-success hidden">
+                <i class="fas fa-check-circle"></i>
+                <p>Payment Successful!</p>
+            </div>
+        </div>
+    </div>
+
+      <!-- Footer -->
+    <footer> 
+        <div class="footer-left">
+            <a href="index.html"><img  src="perfume-logo-i-removebg-preview.png" alt="Logo" class="footer-logo">
+        </div> </a>
+        <div class="footer-center">
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> <a href="https://wa.me/5016620248" >+501 662-0248</p> </a>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:rashelyascan12@gmail.com">Auromearoma2025@gmail.com</p></a>
+                <p><i class="fas fa-map-marker-alt"></i><a href="https://maps.app.goo.gl/zJLHhYiFCAscyZJW7">Aurome Aroma</p></a>
+            </div>
+        </div>
+        
+        <div class="footer-right">
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100057288016719"><i class="fab fa-facebook"></i></a>
+               <a href="https://x.com/?lang=en"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/iits_masha/?utm_source=ig_web_button_share_sheet"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="opening-hours">
+                <h3>Opening Hours</h3>
+                <p>Mon-Fri: 9am - 6pm</p>
+                <p>Sat: 10am - 4pm</p>
+                <p>Sun: Closed</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+
+</html>
